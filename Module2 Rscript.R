@@ -1,6 +1,7 @@
 #Name :Ruchika Patidar
 #CLass: ALY6010 Probability theory and Intro Statistics
 #Date: 03/07/24
+#Quarter: 2
 
 #Read Data
 abalone <- read.csv("abalone.data")
@@ -19,6 +20,7 @@ abalone <- abalone %>%
          Viscera_weight = X0.101, 
          Shell_weight = X0.15, 
          Rings = X15)
+print(abalone)
 print(abalone)
 
 
